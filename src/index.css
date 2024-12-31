@@ -1,4 +1,28 @@
 :root {
+  --color-primary-80: #a8c8ff;
+  --color-primary-20: #003062;
+  --color-primary-30: #00468a;
+  --color-primary-90: #d6e3ff;
+  --color-secondary-80: #bdc7dc;
+  --color-secondary-20: #273141;
+  --color-secondary-30: #3e4758;
+  --color-secondary-90: #d9e3f8;
+  --color-tertiary-80: #dcbce1;
+  --color-tertiary-20: #3e2845;
+  --color-tertiary-30: #563e5c;
+  --color-tertiary-90: #f9d8fe;
+  --color-error-80: #ffb4ab;
+  --color-error-20: #690005;
+  --color-error-30: #93000a;
+  --color-error-90: #ffdad6;
+  --color-background-neutral10: #1a1c1e;
+  --color-on-background-neutral90: #e3e2e6;
+  --color-surface-neutral10: #121316;
+  --color-on-surface-neutral80: #c7c6ca;
+  --color-surface-variant-neutral30: #43474e;
+  --color-on-surface-variant-neutral80: #c4c6cf;
+  --color-outline-variant-neutral60: #8e9099;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -18,6 +42,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
