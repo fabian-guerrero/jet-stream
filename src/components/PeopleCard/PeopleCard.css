@@ -1,0 +1,28 @@
+[data-component="people-card"] {
+  display: inline-flex;
+  flex-direction: column;
+  width: 124px;
+  height: 212px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #292a2d;
+
+  .people-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+  }
+
+  .people-image {
+    width: auto;
+    height: 160px;
+  }
+
+  .people-name {
+    color: var(--color-on-surface-neutral80);
+  }
+
+  .poeple-character-name {
+    color: var(--color-on-surface-variant-neutral80);
+  }
+}
